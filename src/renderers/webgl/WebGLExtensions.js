@@ -20,6 +20,8 @@ function WebGLExtensions( gl ) {
 
 			switch ( name ) {
 
+				console.log(name);
+
 				case 'WEBGL_depth_texture':
 					extension = gl.getExtension( 'WEBGL_depth_texture' ) || gl.getExtension( 'MOZ_WEBGL_depth_texture' ) || gl.getExtension( 'WEBKIT_WEBGL_depth_texture' );
 					break;
